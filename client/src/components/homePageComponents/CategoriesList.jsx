@@ -57,8 +57,8 @@ export default function CategoriesList() {
           <img src={water} alt="ادوات احتياطية ماتور ماء" />
         </div>
 
-        <div className='category kamla' onClick={() => categoryClickHandler('الكل')}>
-          <img src={all} alt="كل الأدوات" />
+        <div className='category kamla' onClick={() => categoryClickHandler('ادوات احتياطية كاملة')}>
+          <img src={all} alt="ادوات احتياطية كاملة" />
         </div>
 
         <div className='category other' onClick={() => categoryClickHandler('أخرى')}>

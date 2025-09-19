@@ -1,7 +1,6 @@
 import cart from './scripts/cart.js'
 
-export const backendUrl = 'https://yoke-server.vercel.app'
-
+export const backendUrl = "https://yoke-server.vercel.app"
 
 export function updateCart() {
   const totalQuantity = cart.cartArray.reduce(
